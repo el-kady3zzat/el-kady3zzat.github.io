@@ -90014,7 +90014,7 @@ A.Ks.prototype={
 J(a){var s=this,r=null,q=t.w,p=A.b5(a,r,q).w,o=A.b5(a,r,q).w.a.a
 q=o>1500?p.a.b-60:r
 p=t.p
-return A.ds(r,A.cf(A.a([new A.bG(B.oe,new A.ek(B.c6,r,r,A.aH("My Certificates",r,r,r,A.J(a).p2.b.iQ(B.j,20),r,r),r),r),A.aFv(A.a([s.DF("assets/images/Sprints.png"),s.DF("assets/images/AAL_no_nId.png"),s.No("assets/images/Android-Udacity.svg",!0),s.DF("assets/images/C-Tera.png")],p),16,16)],p),B.aB,B.x,B.u),B.v,B.ex,r,r,q,s.c,r,r,o)},
+return A.ds(r,A.cf(A.a([new A.bG(B.oe,new A.ek(B.c6,r,r,A.aH("My Certificates",r,r,r,A.J(a).p2.b.iQ(B.j,20),r,r),r),r),A.aFv(A.a([s.DF("assets/images/Sprints.png"),s.DF("assets/images/AAL.png"),s.No("assets/images/Android-Udacity.svg",!0),s.DF("assets/images/C-Tera.png")],p),16,16)],p),B.aB,B.x,B.u),B.v,B.ex,r,r,q,s.c,r,r,o)},
 No(a,b){var s=null,r=A.cL(10),q=A.cL(10)
 return new A.bG(B.ob,A.l0(A.a2B(q,b?A.bz(A.aEW(a,B.c9,s,s),300,450):A.ur(a,B.c9,300,450),B.by),s,5,s,s,new A.cd(r,B.t)),s)},
 DF(a){return this.No(a,!1)}}
