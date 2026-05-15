@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,7 +19,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Mobile Application Developer">
+  <meta name="description" content="Mobile Application Developer.">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
 
   <!-- iOS meta tags & icons -->
@@ -29,12 +30,50 @@
   <link rel="apple-touch-icon" href="logo.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="logo.png"/>
+  <link rel="icon" type="image/png" href="logo.png" />
 
   <title>Qadi Ezzat</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
+  <!-- This shows IMMEDIATELY, before Flutter loads -->
+  <div id="loading">
+    <style>
+      #loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff;
+        /* match your app's background */
+      }
+
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #f0f0f0;
+        border-top-color: #3B82F6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <div class="spinner"></div>
+  </div>
+
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      document.getElementById('loading').remove();
+    });
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
+
 </html>
